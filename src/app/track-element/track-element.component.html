@@ -2,5 +2,5 @@
 <button (click)="refreshBtn()" >refresh</button>
 
 <ul>
-<li *ngFor="let todo of todos">{{todo.id}}</li>
+	<li *ngFor="let todo of todos; trackBy:trackElement ">{{todo.id}}</li>
 </ul>
