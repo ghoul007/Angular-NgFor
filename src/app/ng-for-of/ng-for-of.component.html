@@ -1,0 +1,10 @@
+<ng-template ngFor [ngForOf]="data" [ngForTrackBy]="trackByIndex" let-cell let-i="index" let-odd="odd" item-completed>
+	{{i}}-{{cell.id}}/
+</ng-template>
+
+
+<hr>
+
+<ng-template ngFor let-dayNumber [ngForOf]="[0,1,2,3,4]">
+	{{dayNumber}}
+</ng-template>

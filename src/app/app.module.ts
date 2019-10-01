@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TrackElementComponent } from './track-element/track-element.component';
+import { NgForOfComponent } from './ng-for-of/ng-for-of.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TrackElementComponent
+    TrackElementComponent,
+    NgForOfComponent
   ],
   imports: [
     BrowserModule,
